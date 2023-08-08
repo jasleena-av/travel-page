@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Dosis:wght@200&family=Gloock&family=Merriweather:ital,wght@0,300;0,700;1,300;1,400&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Roboto+Condensed:wght@300;400&family=Rubik:ital,wght@1,300&display=swap');
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+}
+.nav-item .nav-link {
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(242, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.nav-item .nav-link:hover{
+    color: #Ffc40c;
+
+}
+
+
+.navbar-nav{
+    text-align: center;
+}
+
+.tourist-head{
+    font-size: 40px;
+    margin-right: 70px;
+}
+
+
+.explore{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.section-subtle{
+    font-family: 'Comforter Brush', cursive;
+    color:#Ffc40c;
+    font-size: 40px;
+
+}
+.section-title{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.section-trusted{
+    font-size: larger;
+}
+.btn-group{
+    row-gap: 15px;
+    column-gap: 15px;
+
+}
+.btn-group:hover{
+    transform: scale(1.1);
+}
+.btn-primary{
+    background-color: #009698;
+    color: white;
+}
+.btn-outline{
+    border: 2px solid grey;
+}
+.destination{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+
+.destination-list{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+
+/* services */
+section .container .text p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+}
+.container-img img{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.row-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap:2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+.container-item{
+    background-color: #fff;
+    border : 1px solid #f0eded;
+    padding: 50px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+.container-item:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55/12%);
+    border: 1px solid transparent;
+    transform: translateY(-4px);
+}
+/* gallery*/
+.gallery{
+    padding: 100px 0;
+}
+.gallery-text{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box{
+    position: relative;
+    font-size: 30px;
+}
+.gallery-box h4{
+    display: block;
+    color: #f0eded;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+
+
+
+}
+/*** Package ***/
+.package-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.package-item img {
+    transition: .5s;
+}
+
+.package-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+  }
